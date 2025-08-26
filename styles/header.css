@@ -1,7 +1,9 @@
 header {
-  max-width: 120rem;
+  /* Modificação Própria de 80rem para 100rem (Baseado no meu monitor) */
+  max-width: 100rem;
   width: 100%;
   padding: 1.25rem 2rem;
+  margin-inline: auto;
 
   display: flex;
   align-items: center;
