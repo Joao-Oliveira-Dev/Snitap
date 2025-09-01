@@ -46,3 +46,9 @@ header.top {
     border-radius: 50%;
   }
 }
+
+@media (max-width: 40rem){
+    header.top{
+        max-width: 30rem;
+    }
+}

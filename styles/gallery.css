@@ -113,3 +113,23 @@ section.gallery {
     transform: translateY(100%) ease;
   }
 }
+
+@media (max-width: 40rem){
+    section.gallery{
+        & .content{
+            margin-top: 2rem;
+            display: block;
+            gap: 2.5rem;
+        }
+
+        & figure{
+            padding-block: 1.3rem;
+
+            line-height: 0;
+
+            & > img{
+                border-radius: 2.5rem;
+            }
+        }
+    }
+}
